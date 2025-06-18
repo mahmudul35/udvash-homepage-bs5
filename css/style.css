@@ -1,0 +1,106 @@
+/* coomon design */
+
+.common-btn {
+  width: 153px;
+  padding: 8px 15px;
+  border-radius: 60px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.topLeft-topRight-radius {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.purple-blue-gradient {
+  background: linear-gradient(to right, blue, purple);
+}
+
+.fa-bars,
+.fa-xmark {
+  font-size: 25px;
+}
+
+.red-orange-gradient {
+  background: linear-gradient(to right, rgb(247, 94, 6), #b11301);
+}
+
+.carousel-indicators button {
+  background-color: #fff !important;
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50%;
+  margin-top: 20px;
+  opacity: 100% !important;
+}
+
+.carousel-indicators .active {
+  background-color: orangered !important;
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 10;
+  left: -100%;
+  width: 250px;
+  height: 100vh;
+  background: white;
+  padding: 1rem;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+  z-index: 1050;
+}
+
+.mobile-menu.active {
+  left: 0;
+  z-index: 1000;
+}
+
+.mobile-menu .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* programs start */
+
+.filter {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 60px;
+  /* width: 358px; */
+  width: 100%;
+  border: none;
+  box-shadow: 5px 5px 6px rgb(207, 206, 206);
+}
+.carddd {
+  /* width: 350px; */
+  height: 555px;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: 5px 5px 8px rgb(194, 193, 193);
+  padding: 0;
+  /* gap: 20px; */
+}
+.g {
+  max-width: 30%;
+  background-color: white;
+}
+.card-container img {
+  width: 100%;
+}
+
+.card-title {
+  font-size: 22px;
+  color: #000000;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 770px) {
+  .navlink {
+    display: none;
+  }
+}
