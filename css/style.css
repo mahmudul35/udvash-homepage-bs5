@@ -1,5 +1,17 @@
-/* coomon design */
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400..800&display=swap");
 
+body {
+  font-family: "Baloo Da 2", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* coomon design */
+ul > li > a {
+  text-decoration: none;
+  color: white;
+}
 .common-btn {
   width: 153px;
   padding: 8px 15px;
@@ -14,17 +26,35 @@
   border-top-right-radius: 30px;
 }
 
+.red-orange-gradient {
+  background: linear-gradient(to right, rgb(247, 94, 6), #b11301);
+}
+
 .purple-blue-gradient {
   background: linear-gradient(to right, blue, purple);
+}
+
+.red-orange-gradient:hover {
+  background: linear-gradient(to right, #ec4534, orange);
+}
+
+.secondary-gradient {
+  background: linear-gradient(to right, #b902f6, #5c2078);
+}
+.secondary-gradient:hover {
+  background: linear-gradient(to right, #5c2078, #b902f6);
+}
+
+.tertiary-gradient {
+  background: linear-gradient(to right, #33a947, #074029);
+}
+.tertiary-gradient:hover {
+  background: linear-gradient(to right, #074029, #33a947);
 }
 
 .fa-bars,
 .fa-xmark {
   font-size: 25px;
-}
-
-.red-orange-gradient {
-  background: linear-gradient(to right, rgb(247, 94, 6), #b11301);
 }
 
 .carousel-indicators button {
@@ -44,7 +74,7 @@
   position: absolute;
   top: 10;
   left: -100%;
-  width: 250px;
+  width: 50%;
   height: 100vh;
   background: white;
   padding: 1rem;
@@ -85,10 +115,38 @@
   padding: 0;
   /* gap: 20px; */
 }
+
+.card {
+  border-radius: 20px;
+}
+.card-header img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-body ul {
+  font-size: 17px;
+  /* padding-left: 25px; */
+  color: #4a4a4a;
+}
+
+.card .card-footer {
+  background: #fff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 100%;
+}
+
 .g {
   max-width: 30%;
   background-color: white;
 }
+
+.card-header img {
+  width: 100%;
+  padding: 0;
+}
+
 .card-container img {
   width: 100%;
 }
@@ -99,8 +157,159 @@
   margin-left: 20px;
 }
 
-@media only screen and (max-width: 770px) {
+/* obak kora safollo */
+.success-indicator {
+  margin-bottom: -50px;
+}
+.carousel-indicators .success-btn {
+  background-color: #8e9dd8 !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.success-indicator .active {
+  background-color: #112780 !important;
+  width: 50px !important;
+  border-radius: 20px !important;
+}
+
+.success-card p {
+  margin-top: 25px;
+}
+
+/* sofol jara kemon tara */
+
+.testomonial-card {
+  /* max-width: 388px; */
+  padding: 10px;
+  background-color: #fefff6;
+}
+
+.testomonial-card .student-name {
+  font-size: 20px;
+  margin: 0;
+}
+
+.testomonial-card .student-statement {
+  text-align: center;
+  font-size: 18px;
+}
+
+.testomonial-card .admission-year {
+  font-size: 12px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.udvash-logo {
+  right: 20px;
+  top: 30px;
+}
+
+.bottom-line {
+  position: absolute;
+  height: 4px;
+  width: 200px;
+  /* background-color: #B3C022; */
+  left: 50%;
+  bottom: -3px;
+}
+
+/* .row > .col-md-4:nth-child(3n + 1) card {
+  background-color: #f9f3d2;
+}
+.row > .col-md-4:nth-child(3n + 2) .card {
+  background-color: #eef7ff;
+} */
+
+/* .row > .col-md-4:nth-child(3n + 3) .card {
+  background-color: #fce7f3;
+} */
+
+/* buet 1st */
+.video-container {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  height: 425px;
+  border: 2px solid black;
+}
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: red;
+  border: 1px solid red;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.success-card:nth-of-type(1) h1 {
+  color: #9b3175;
+}
+.success-card:nth-of-type(2) h1 {
+  color: #db4528;
+}
+.success-card:nth-of-type(3) h1 {
+  color: #1e9b39;
+}
+.success-card:nth-of-type(4) h1 {
+  color: #986206;
+}
+
+/* shokol shaka start here */
+
+.description-container > h1,
+h2 {
+  color: #6abe45;
+}
+
+.description-container p {
+  font-size: 17px;
+}
+
+/* preparation section start */
+.preparation-description-container h1 {
+  font-weight: bolder;
+  color: #995699;
+}
+.preparation-description-container p {
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 576px) {
+  .description-container h1,
+  h2 {
+    text-align: center;
+  }
+
+  .description-container p {
+    font-size: 14px;
+  }
+
+  .preparation-description-container h1,
+  h2 {
+    text-align: center;
+  }
+
+  .preparation-description-container p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
   .navlink {
     display: none;
+  }
+  .video-container {
+    height: 250px;
+  }
+
+  .testomonial-card {
+    min-width: 100%;
   }
 }

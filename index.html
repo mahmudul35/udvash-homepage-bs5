@@ -22,16 +22,15 @@
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css" />
 
-    <!-- jQuery CDN (must come BEFORE your custom script.js) -->
+    <!-- Jquey CDN -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-
-    <!-- Your custom JavaScript file -->
+   
     <script src="js/script.js"></script>
   </head>
   <body>
-    <header class="sticky-top" style="background-color: #fff">
+    <header class="sticky-top shadow" style="background-color: #fff">
       <nav
-        class="container navbar navbar-expand-lg p-2 d-flex justify-content-between align-items-center"
+        class="container-xl navbar navbar-expand-lg p-2 d-flex justify-content-between align-items-center"
       >
         <!-- logo start-->
         <div>
@@ -56,18 +55,19 @@
               />
             </li>
           </ul>
-          <div>
-            <button
-              class="common-btn red-orange-gradient"
-              style="font-size: 18px; color: white; font-weight: bold"
-            >
-              Join Now
-            </button>
-            <button class="btn d-lg-none" id="menu-toggle">
+          <div >
+         
+        <button
+          class="common-btn red-orange-gradient"
+          style="font-size: 18px; color: white; font-weight: bold"
+        >
+          Join Now
+        </button>
+        <button class="btn d-lg-none" id="menu-toggle">
               <i class="fa-solid fa-bars" id="menu-icon"></i>
-            </button>
-          </div>
+        </button>
         </div>
+      </div>
 
         <!-- nav link end -->
       </nav>
@@ -92,7 +92,7 @@
       <section class="slider-container">
         <div
           id="carouselExampleIndicators"
-          class="carousel slide"
+          class="carousel slide "
           data-bs-ride="carousel"
         >
           <div class="carousel-indicators">
@@ -130,7 +130,7 @@
             >
               <picture>
                 <source
-                  media="(max-width: 992px)"
+                  media="(max-width: 576px)"
                   srcset="
                     https://udvash-unmesh.com//media/Images/Udvash/sliderimage/z/EAP23Top3UpdateMob..png
                   "
@@ -148,7 +148,7 @@
             >
               <picture>
                 <source
-                  media="(max-width: 992px)"
+                  media="(max-width: 576px)"
                   srcset="
                     https://udvash-unmesh.com//media/Images/Udvash/sliderimage/z/2.png
                   "
@@ -166,7 +166,7 @@
             >
               <picture>
                 <source
-                  media="(max-width: 992px)"
+                  media="(max-width: 576px)"
                   srcset="
                     https://udvash-unmesh.com//media/Images/Udvash/sliderimage/2024/DU2024Top3Mob1.png
                   "
@@ -184,7 +184,7 @@
             >
               <picture>
                 <source
-                  media="(max-width: 992px)"
+                  media="(max-width: 576px)"
                   srcset="
                     https://udvash-unmesh.com//media/Images/Udvash/sliderimage/z/Kha02.png
                   "
@@ -229,12 +229,12 @@
         "
       >
         <div class="container">
-          <h1 class="text-center" style="color: #100254; padding-top: 30px">
+          <h1 class="text-center fw-bold" style="color: #100254; padding-top: 30px">
             সময়োপযোগী প্রোগ্রামসমূহ
           </h1>
         </div>
 
-        <div class="card-container container mt-5">
+        <div class="container-xl mt-5">
           <!-- filter start-->
           <div class="row g-4">
             <div class="col-12 col-md-4">
@@ -264,215 +264,596 @@
                 <option value="Free Program">Free Program</option>
               </select>
             </div>
-
-            <!-- card1 -->
-            <div class="cardd col-12 col-md-4">
-              <div>
-                <img
-                  class="topLeft-topRight-radius"
-                  src="https://udvash-unmesh.com//media/Images/Udvash/program/2025/zz%20(4).png"
-                  alt=""
-                />
-              </div>
-              <div class="card-content p-3">
-                <h2 class="card-title fw-bold mb-4">
-                  প্যারালাল Text (ষষ্ঠ-দ্বাদশ)
-                </h2>
-                <ul>
-                  <li>দৃঢ় বেসিক গঠনে কনসেপ্ট ভিত্তিক আলোচনা</li>
-                  <li>বাস্তব উদাহরণ, গল্প এবং চিত্রালোকে সাজানো</li>
-                  <li>
-                    সংজ্ঞা, বৈশিষ্ট্য, পার্থক্য ইত্যাদি নির্দেশকের মাধ্যমে
-                    পৃথককরণ
-                  </li>
-                  <li>বোর্ড ও এডমিশন প্রশ্ন-সমাধান ব্যাখ্যাসহকারে বিশ্লেষণ</li>
-                  <li>প্র্যাকটিস ও গাণিতিক সমস্যাবলি সংযোজন</li>
-                </ul>
-                <div style="text-align: center">
-                  <button
-                    class="common-btn purple-blue-gradient"
-                    style="color: white"
-                  >
-                    Details
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="cardd bg col-12 col-md-4">
-              <div>
-                <img
-                  class="topLeft-topRight-radius"
-                  src="https://udvash-unmesh.com//media/Images/Udvash/program/2025/zz%20(4).png"
-                  alt=""
-                />
-              </div>
-              <div class="card-content p-3">
-                <h2 class="card-title fw-bold mb-4">
-                  প্যারালাল Text (ষষ্ঠ-দ্বাদশ)
-                </h2>
-                <ul>
-                  <li>দৃঢ় বেসিক গঠনে কনসেপ্ট ভিত্তিক আলোচনা</li>
-                  <li>বাস্তব উদাহরণ, গল্প এবং চিত্রালোকে সাজানো</li>
-                  <li>
-                    সংজ্ঞা, বৈশিষ্ট্য, পার্থক্য ইত্যাদি নির্দেশকের মাধ্যমে
-                    পৃথককরণ
-                  </li>
-                  <li>বোর্ড ও এডমিশন প্রশ্ন-সমাধান ব্যাখ্যাসহকারে বিশ্লেষণ</li>
-                  <li>প্র্যাকটিস ও গাণিতিক সমস্যাবলি সংযোজন</li>
-                </ul>
-                <div style="text-align: center">
-                  <button
-                    class="common-btn purple-blue-gradient"
-                    style="color: white"
-                  >
-                    Details
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="cardd col-12 col-md-4">
-              <div>
-                <img
-                  class="topLeft-topRight-radius"
-                  src="https://udvash-unmesh.com//media/Images/Udvash/program/2025/zz%20(4).png"
-                  alt=""
-                />
-              </div>
-              <div class="card-content p-3">
-                <h2 class="card-title fw-bold mb-4">
-                  প্যারালাল Text (ষষ্ঠ-দ্বাদশ)
-                </h2>
-                <ul>
-                  <li>দৃঢ় বেসিক গঠনে কনসেপ্ট ভিত্তিক আলোচনা</li>
-                  <li>বাস্তব উদাহরণ, গল্প এবং চিত্রালোকে সাজানো</li>
-                  <li>
-                    সংজ্ঞা, বৈশিষ্ট্য, পার্থক্য ইত্যাদি নির্দেশকের মাধ্যমে
-                    পৃথককরণ
-                  </li>
-                  <li>বোর্ড ও এডমিশন প্রশ্ন-সমাধান ব্যাখ্যাসহকারে বিশ্লেষণ</li>
-                  <li>প্র্যাকটিস ও গাণিতিক সমস্যাবলি সংযোজন</li>
-                </ul>
-                <div style="text-align: center">
-                  <button
-                    class="common-btn purple-blue-gradient"
-                    style="color: white"
-                  >
-                    Details
-                  </button>
-                </div>
-              </div>
-            </div>
           </div>
           <!-- filter end -->
           <!-- programs card start -->
-          <div class="row mt-5">
+
+          <div class="row g-4 mt-3 p-1 ">
             <!-- card1 -->
-            <!-- <div class="card col-md-4">
-              <div>
-                <img
-                  class="topLeft-topRight-radius"
-                  src="https://udvash-unmesh.com//media/Images/Udvash/program/2025/zz%20(4).png"
-                  alt=""
-                />
-              </div>
-              <div class="card-content p-3">
-                <h2 class="card-title fw-bold mb-4">
-                  প্যারালাল Text (ষষ্ঠ-দ্বাদশ)
-                </h2>
-                <ul>
-                  <li>দৃঢ় বেসিক গঠনে কনসেপ্ট ভিত্তিক আলোচনা</li>
-                  <li>বাস্তব উদাহরণ, গল্প এবং চিত্রালোকে সাজানো</li>
-                  <li>
-                    সংজ্ঞা, বৈশিষ্ট্য, পার্থক্য ইত্যাদি নির্দেশকের মাধ্যমে
-                    পৃথককরণ
-                  </li>
-                  <li>বোর্ড ও এডমিশন প্রশ্ন-সমাধান ব্যাখ্যাসহকারে বিশ্লেষণ</li>
-                  <li>প্র্যাকটিস ও গাণিতিক সমস্যাবলি সংযোজন</li>
-                </ul>
-                <div style="text-align: center">
-                  <button
-                    class="common-btn purple-blue-gradient"
-                    style="color: white"
-                  >
-                    Details
-                  </button>
+
+            <div class="col-12 col-sm-6 col-lg-4 col ">
+              <div class="card h-100  shadow d-flex justify-content-between">
+                <div class="card-header p-0">
+                  <img src="https://udvash-unmesh.com//media/Images/Udvash/program/2025/zz%20(4).png" alt="">
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title fw-bold">প্যারালাল Text (ষষ্ঠ-দ্বাদশ)</h3>
+                  <ul>
+                      <li>দৃঢ় বেসিক গঠনে কনসেপ্ট ভিত্তিক আলোচনা</li>
+                      <li>বাস্তব উদাহরণ, গল্প এবং চিত্রালোকে সাজানো</li>
+                      <li>সংজ্ঞা, বৈশিষ্ট্য, পার্থক্য ইত্যাদি নির্দেশকের মাধ্যমে পৃথককরণ</li>
+                      <li>বোর্ড ও এডমিশন প্রশ্ন-সমাধান ব্যাখ্যাসহকারে বিশ্লেষণ</li>
+                      <li>প্র্যাকটিস  ও গাণিতিক সমস্যাবলি সংযোজন</li>
+                  </ul>
+                </div>
+                <div class="card-footer  border-0 d-flex justify-content-center align-items-center pb-3">
+                  <button class="common-btn purple-blue-gradient" style="color: white;">Details</button>
                 </div>
               </div>
-            </div> -->
-            <!-- card1 -->
-            <!-- <div class="card col-md-4">
-              <div>
-                <img
-                  class="topLeft-topRight-radius"
-                  src="https://udvash-unmesh.com//media/Images/Udvash/program/2025/zz%20(4).png"
-                  alt=""
-                />
-              </div>
-              <div class="card-content p-3">
-                <h2 class="card-title fw-bold mb-4">
-                  প্যারালাল Text (ষষ্ঠ-দ্বাদশ)
-                </h2>
-                <ul>
-                  <li>দৃঢ় বেসিক গঠনে কনসেপ্ট ভিত্তিক আলোচনা</li>
-                  <li>বাস্তব উদাহরণ, গল্প এবং চিত্রালোকে সাজানো</li>
-                  <li>
-                    সংজ্ঞা, বৈশিষ্ট্য, পার্থক্য ইত্যাদি নির্দেশকের মাধ্যমে
-                    পৃথককরণ
-                  </li>
-                  <li>বোর্ড ও এডমিশন প্রশ্ন-সমাধান ব্যাখ্যাসহকারে বিশ্লেষণ</li>
-                  <li>প্র্যাকটিস ও গাণিতিক সমস্যাবলি সংযোজন</li>
-                </ul>
-                <div style="text-align: center">
-                  <button
-                    class="common-btn purple-blue-gradient"
-                    style="color: white"
-                  >
-                    Details
-                  </button>
+
+            </div>
+            
+             <!-- card2 -->
+
+             <div class="col-12 col-sm-6 col-lg-4 col ">
+              <div class="card h-100 shadow ">
+                <div class="card-header p-0">
+                  <img src="https://udvash-unmesh.com//media/Images/Udvash/program/2025/1%20(1).png" alt="">
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title fw-bold">মেডিকেল + ভার্সিটি Math এডমিশন প্রোগ্রাম 2025</h3>
+                  <ul >
+                      <li>মেধাবী ও অভিজ্ঞ শিক্ষক দ্বারা ক্লাস</li>
+                      <li>লাইভ ম্যারাথন ক্লাস</li>
+                      <li>সংজ্ঞা, বৈশিষ্ট্য, পার্থক্য ইত্যাদি নির্দেশকের মাধ্যমে পৃথককরণ</li>
+                      <li>প্রশ্নব্যাংক মাস্টার ক্লাস ও কুইজ</li>
+                      <li>পর্যাপ্ত সংখ্যক স্ট্যান্ডার্ড এক্সাম</li>
+                      <li>মানসম্মত সকল স্টাডি ম্যাটেরিয়ালস</li>
+                      <li>ডাউট সলভিংয়ে সার্বক্ষণিক Q & A সেবা</li>
+                  </ul>
+                </div>
+                <div class="card-footer border-0 d-flex justify-content-around align-items-center pb-3">
+                  <button class="common-btn secondary-gradient" style="color: white;letter-spacing: 1px;">Offline</button>
+                  <button class="common-btn tertiary-gradient" style="color: white;">Online/Combo</button>
                 </div>
               </div>
-            </div> -->
-            <!-- card1 -->
-            <!-- <div class="card col-md-4">
-              <div>
-                <img
-                  class="topLeft-topRight-radius"
-                  src="https://udvash-unmesh.com//media/Images/Udvash/program/2025/zz%20(4).png"
-                  alt=""
-                />
-              </div>
-              <div class="card-content p-3">
-                <h2 class="card-title fw-bold mb-4">
-                  প্যারালাল Text (ষষ্ঠ-দ্বাদশ)
-                </h2>
-                <ul>
-                  <li>দৃঢ় বেসিক গঠনে কনসেপ্ট ভিত্তিক আলোচনা</li>
-                  <li>বাস্তব উদাহরণ, গল্প এবং চিত্রালোকে সাজানো</li>
-                  <li>
-                    সংজ্ঞা, বৈশিষ্ট্য, পার্থক্য ইত্যাদি নির্দেশকের মাধ্যমে
-                    পৃথককরণ
-                  </li>
-                  <li>বোর্ড ও এডমিশন প্রশ্ন-সমাধান ব্যাখ্যাসহকারে বিশ্লেষণ</li>
-                  <li>প্র্যাকটিস ও গাণিতিক সমস্যাবলি সংযোজন</li>
-                </ul>
-                <div style="text-align: center">
-                  <button
-                    class="common-btn purple-blue-gradient"
-                    style="color: white"
-                  >
-                    Details
-                  </button>
+
+            </div>
+             <!-- card3 -->
+
+             <div class="col-12 col-sm-6 col-lg-4 ">
+              <div class="card h-100 shadow ">
+                <div class="card-header p-0">
+                  <img src="https://udvash-unmesh.com//media/Images/Udvash/program/2025/zz%20(3).png" alt="">
+                </div>
+                <div class="card-body ">
+                  <h3 class="card-title fw-bold">ইঞ্জিনিয়ারিং + Biology এডমিশন প্রোগ্রাম 2025</h3>
+                  <ul >
+                    <li>মেধাবী ও অভিজ্ঞ শিক্ষক দ্বারা ক্লাস</li>
+                    <li>লাইভ ম্যারাথন ক্লাস</li>
+                    <li>সংজ্ঞা, বৈশিষ্ট্য, পার্থক্য ইত্যাদি নির্দেশকের মাধ্যমে পৃথককরণ</li>
+                    <li>প্রশ্নব্যাংক মাস্টার ক্লাস ও কুইজ</li>
+                    <li>পর্যাপ্ত সংখ্যক স্ট্যান্ডার্ড এক্সাম</li>
+                    <li>মানসম্মত সকল স্টাডি ম্যাটেরিয়ালস</li>
+                    <li>ডাউট সলভিংয়ে সার্বক্ষণিক Q & A সেবা</li>
+                  </ul>
+                </div>
+                <div class="card-footer  border-0 d-flex justify-content-around align-items-center pb-3">
+                  <button class="common-btn secondary-gradient" style="color: white;letter-spacing: 1px;">Offline</button>
+                  <button class="common-btn tertiary-gradient" style="color: white;">Online/Combo</button>
                 </div>
               </div>
-            </div> -->
+
+            </div>
+             <!-- card4 -->
+
+             <div class="col-12 col-sm-6 col-lg-4 ">
+              <div class="card h-100 shadow ">
+                <div class="card-header p-0">
+                  <img src="https://udvash-unmesh.com//media/Images/Udvash/program/2025/zz%20(1).png" alt="">
+                </div>
+                <div class="card-body ">
+                  <h3 class="card-title fw-bold">ভার্সিটি ‘ক’ & GST এডমিশন প্রোগ্রাম 2025</h3>
+                  <ul >
+                    <li>মেধাবী ও অভিজ্ঞ শিক্ষক দ্বারা ক্লাস</li>
+                    <li>লাইভ ম্যারাথন ক্লাস</li>
+                    <li>সংজ্ঞা, বৈশিষ্ট্য, পার্থক্য ইত্যাদি নির্দেশকের মাধ্যমে পৃথককরণ</li>
+                    <li>প্রশ্নব্যাংক মাস্টার ক্লাস ও কুইজ</li>
+                    <li>পর্যাপ্ত সংখ্যক স্ট্যান্ডার্ড এক্সাম</li>
+                    <li>মানসম্মত সকল স্টাডি ম্যাটেরিয়ালস</li>
+                    <li>ডাউট সলভিংয়ে সার্বক্ষণিক Q & A সেবা</li>
+                  </ul>
+                </div>
+                <div class="card-footer  border-0 d-flex justify-content-around align-items-center pb-3">
+                  <button class="common-btn secondary-gradient" style="color: white;letter-spacing: 1px;">Offline</button>
+                  <button class="common-btn tertiary-gradient" style="color: white;">Online/Combo</button>
+                </div>
+              </div>
+
+            </div>
+             <!-- card5 -->
+
+             <div class="col-12 col-sm-6 col-lg-4 ">
+              <div class="card h-100 shadow ">
+                <div class="card-header p-0">
+                  <img src="https://udvash-unmesh.com//media/Images/Udvash/program/2025/zz%20(3).png" alt="">
+                </div>
+                <div class="card-body ">
+                  <h3 class="card-title fw-bold">ইঞ্জিনিয়ারিং + Biology এডমিশন প্রোগ্রাম 2025</h3>
+                  <ul >
+                    <li>মেধাবী ও অভিজ্ঞ শিক্ষক দ্বারা ক্লাস</li>
+                    <li>লাইভ ম্যারাথন ক্লাস</li>
+                    <li>সংজ্ঞা, বৈশিষ্ট্য, পার্থক্য ইত্যাদি নির্দেশকের মাধ্যমে পৃথককরণ</li>
+                    <li>প্রশ্নব্যাংক মাস্টার ক্লাস ও কুইজ</li>
+                    <li>পর্যাপ্ত সংখ্যক স্ট্যান্ডার্ড এক্সাম</li>
+                    <li>মানসম্মত সকল স্টাডি ম্যাটেরিয়ালস</li>
+                    <li>ডাউট সলভিংয়ে সার্বক্ষণিক Q & A সেবা</li>
+                  </ul>
+                </div>
+                <div class="card-footer  border-0 d-flex justify-content-around align-items-center pb-3">
+                  <button class="common-btn secondary-gradient" style="color: white;letter-spacing: 1px;">Offline</button>
+                  <button class="common-btn tertiary-gradient" style="color: white;">Online/Combo</button>
+                </div>
+              </div>
+
+            </div>
+             <!-- card6 -->
+
+             <div class="col-12 col-sm-6 col-lg-4 ">
+              <div class="card h-100 shadow ">
+                <div class="card-header p-0">
+                  <img src="https://udvash-unmesh.com//media/Images/Udvash/program/2025/2ndTimeMedical2025.png" alt="">
+                </div>
+                <div class="card-body  ">
+                  <h3 class="card-title fw-bold">2nd Time মেডিকেল এডমিশন প্রোগ্রাম 2025</h3>
+                  <ul >
+                    <li>কোর্স ব্যাপ্তি: মেডিকেল ভর্তি পরীক্ষা পর্যন্ত</li>
+                    <li>মেধাবী ও অভিজ্ঞ শিক্ষক দ্বারা ক্লাস</li>
+                    <li>পর্যাপ্ত সংখ্যক মেডিকেল স্ট্যান্ডার্ড এক্সাম</li>
+                    <li>মানসম্মত সকল স্টাডি ম্যাটেরিয়ালস</li> 
+                    <li>পর্যাপ্ত সংখ্যক স্ট্যান্ডার্ড এক্সাম</li>
+                    <li>ডাউট সলভিংয়ে সার্বক্ষণিক Q & A সেবা</li>
+                    <li>ক্লাস শুরু: ১৯ এপ্রিল, ২০২৫</li>
+                  </ul>
+                </div>
+                <div class="card-footer  border-0 d-flex justify-content-around align-items-center pb-3">
+                  <button class="common-btn secondary-gradient" style="color: white;letter-spacing: 1px;">Offline</button>
+                  <button class="common-btn tertiary-gradient" style="color: white;">Online/Combo</button>
+                </div>
+              </div>
+
+            </div>
+
+        
           </div>
+
           <!-- programs card end -->
+          
+          </div>
+          
         </div>
       </section>
-
       <!-- program end here -->
+
+      <!-- obak kora safollo start -->
+       <section  style="background: url(https://udvash.com/Themes/NewUdvashUnmeshTheme/img/udvash/successbg.png); background-repeat: repeat-y;padding: 0 10px;">
+       <div class="container-lg">
+        <h1 class="text-center fw-bold" style="color: #122780;padding-top: 30px">অবাক করা সাফল্যগাঁথা</h1>
+
+        <!-- success slider container start here -->
+       <div
+       id="ExampleIndicators"
+       class="carousel slide container-lg mt-5"
+       data-bs-ride="carousel"
+     >
+       <div class="carousel-indicators success-indicator">
+         <button
+           type="button"
+           data-bs-target="#ExampleIndicators"
+           data-bs-slide-to="0"
+           class="active success-btn"
+           aria-current="true"
+           aria-label="Slide 1"
+         ></button>
+         <button
+           type="button"
+           data-bs-target="#ExampleIndicators"
+           data-bs-slide-to="1"
+           aria-label="Slide 2"
+           class="success-btn"
+         ></button>
+         <button
+           type="button"
+           data-bs-target="#ExampleIndicators"
+           data-bs-slide-to="2"
+           aria-label="Slide 3"
+           class="success-btn"
+         ></button>
+        
+       </div>
+       <div class="carousel-inner">
+         <div
+           style="background: linear-gradient(to bottom, #8b3d9b, #26022d);"
+           class="carousel-item active rounded-2"
+         >
+           <picture>
+            <img  class="d-block w-100 rounded-2" src="https://udvash-unmesh.com//media/Images/Udvash/SuccessSlider/BUET2410Top10Success2.png" alt="">
+           </picture>
+         </div>
+         <div
+           style="background: linear-gradient(to bottom, #670000, #004d13)"
+           class="carousel-item rounded-2"
+         >
+           <picture>
+             
+            <img  class="d-block w-100 rounded-2" src="https://udvash-unmesh.com//media/Images/Udvash/SuccessSlider/Med24Top20Success2.png" alt="">
+           </picture>
+         </div>
+         <div
+           style="background: linear-gradient(to bottom, #101124, #004e92)"
+           class="carousel-item rounded-2"
+         >
+           <picture>
+            
+            <img  class="d-block w-100 rounded-2" src="https://udvash-unmesh.com//media/Images/Udvash/SuccessSlider/DU24Success.png" alt="">
+           </picture>
+         </div>
+         
+       </div>
+       <button
+         class="carousel-control-prev"
+         type="button"
+         data-bs-target="#carouselExampleIndicators"
+         data-bs-slide="prev"
+       >
+         <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+         <span class="visually-hidden">Previous</span>
+       </button>
+       <button
+         class="carousel-control-next"
+         type="button"
+         data-bs-target="#carouselExampleIndicators"
+         data-bs-slide="next"
+       >
+         <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+         <span class="visually-hidden">Next</span>
+       </button>
+     </div>
+     <!-- success slider container end here -->
+
+     <!-- succes-card container start -->
+      <div class="row mt-5 py-5">
+        <div class="success-card col-6 col-md-3 text-center">
+          <div>
+              <img src="https://udvash-unmesh.com//media/Images/Udvash/Counter/buet.png" alt="">
+               <h1 class="buet-student counter" id="counter" data-target="1300"="">0</h1>
+          </div>
+         
+        
+          <p class="fs-5">২০২৪ BUET ভর্তি পরীক্ষায় মেধা তালিকায় প্রথম ৫০ এ ৪৮ জনসহ ১৩০৯টি আসনের মধ্যে উদ্ভাস থেকে চান্স পেয়েছে সর্বমোট ১৩০০+ শিক্ষার্থী।</p>
+        
+       </div>
+       <!-- medical --> 
+       <div class="success-card col-6 col-md-3 text-center">
+          <div>
+              <img src="https://udvash-unmesh.com//media/Images/Udvash/Counter/medical.png" alt="">
+                <h1 class="medical-student counter" data-target="4800">0</h1>
+          </div>
+        
+          <p class="fs-5">২০২৪ মেডিকেল ভর্তি পরীক্ষায় জাতীয় মেধায় প্রথম ২০ এ ২০ জন এবং DMC-তে ২৩৯ জনসহ সরকারি মেডিকেল ও ডেন্টাল কলেজে উন্মেষ থেকে চান্স পেয়েছে সর্বমোট ৪৮০৫+ শিক্ষার্থী।</p>
+       </div>
+       <!-- DU Ka -->
+       <div class="success-card col-6 col-md-3 text-center">
+          <div>
+              <img src="https://udvash-unmesh.com//media/Images/Udvash/Counter/dhabi.png" alt="">
+              <h1 class="du-ka-student counter" data-target="1800">0</h1>
+          </div>
+          
+          <p class="fs-5">২০২৪ ঢাবি ‘ক’ ইউনিটের ভর্তি পরীক্ষায় মেধা তালিকায় প্রথম ১০ এ ১০ জনসহ ১৮৫১ আসনের মধ্যে উদ্ভাস থেকে চান্স পেয়েছে সর্বমোট ১৮০০+ শিক্ষার্থী।</p>
+       </div>
+       <!-- DU KHA -->
+       <div class="success-card col-6 col-md-3 text-center">
+          <div>
+              <img src="https://udvash-unmesh.com//media/Images/Udvash/Counter/DUKha.png" alt="">
+              <h1 class="du-kha-student counter" data-target="1250">0</h1>
+          </div>
+          
+          <p class="fs-5">২০২৪ ঢাবি ‘খ’ ইউনিটের ভর্তি পরীক্ষায় মেধা তালিকায় প্রথম ১০ এ ৭ জনসহ ২৯৩৪ আসনের মধ্যে প্রথম বছরেই উদ্ভাস থেকে চান্স পেয়েছে সর্বমোট ১২৫০+ শিক্ষার্থী।</p>
+       </div>
+      </div>
+     <!-- succes-card container end -->
+       </div>
+
+       </section>
+      <!-- obak kora safollo end -->
+
+      <!-- Sofol Jara kemon tara section start -->
+       <section style="background: url(https://udvash.com/Themes/NewUdvashUnmeshTheme/img/udvash/testimonialbg.png); padding: 0 10px;">
+        <div class="container-lg">
+          <h1 class="text-center fw-bold" style="color: #580000;padding-top: 30px">সফল যারা, কেমন তারা?</h1>
+
+          <div class="row g-3 mt-4">
+             <!-- buet 1st student card -->
+              <div class="col-md-4">
+                <div class="card testomonial-card position-relative d-flex flex-column justify-content-center align-items-center p-4" style=" box-shadow:
+                inset 0 12px 10px -10px #b3c022,   
+                inset 10px 0 10px -10px #b3c022,  
+                inset -10px 0 10px -10px #b3c022;">
+                    <div class="student-img text-center mt-3">
+                    <img class="rounded-circle w-25" src="https://udvash-unmesh.com//media/Images/Udvash/Testimonial/2024/1EAPTestimonial24.png" alt="" style="border: 4px solid #b3c022;">
+                </div>
+                 <img class="position-absolute udvash-logo" src="https://udvash.com/media/Images/UDVASH/Testimonial/udvashAfter.png" alt="">
+                <h1 class="h5 fw-bold mt-4">তোফায়েল আহমেদ</h1>
+                <p class="admission-year fw-bold">ভর্তি পরীক্ষা: ২০২৪-২৫</p>
+                <h2>BUET ১ম</h2>
+                <p class="student-statement">আমি উদ্ভাস এর এডমিশন’২৩ ব্যাচের সাথে সিলেবাস অনেকটা এগিয়ে রেখেছিলাম। এরপর এডমিশন’২৪ ব্যাচের শুরু থেকেই উদ্ভাসের সঙ্গে ছিলাম। ভর্তির পর ধাপে ধাপে উদ্ভাসের সব ম্যাটেরিয়ালস শেষ করেছি। নিয়মিত ক্লাসও করেছি, কোনো ক্লাস বা পরীক্ষা কখনো মিস দিইনি। পাশাপাশি, উদ্ভাসের অনলাইন ও প্র্যাকটিস এক্সামগুলোও দিতাম। আর ম্যারাথন ক্লাসগুলো আমার প্রত্যাশার চেয়েও অনেক বেশি কার্যকর ছিল। তাই জুনিয়রদের জন্য আমার পরামর্শ—নিয়মিত ক্লাস ও পরীক্ষায় অংশগ্রহণ করো, প্রতিদিনের পড়া প্রতিদিন শেষ করো। নিজের প্রতি আত্মবিশ্বাস রাখো, কারণ সেটাই তোমাকে এগিয়ে নেবে।</p>
+                <div class="bottom-line" style=" background-color: #B3C022;transform: translate(-50%, -50%);"></div>
+                </div>
+              </div>
+
+            
+             <!-- buet 2nd student card -->
+              <div class="col-md-4">
+                <div class="card testomonial-card  d-flex flex-column justify-content-center align-items-center p-4" style=" box-shadow:
+                inset 0 12px 10px -10px #f95850,   
+                inset 10px 0 10px -10px #f95850,   
+                inset -10px 0 10px -10px #f95850; background-color: #fff1f1;">
+                                <div class="student-img text-center mt-3">
+                                <img class="rounded-circle w-25" src="https://udvash-unmesh.com//media/Images/Udvash/Testimonial/2024/2EAPTestimonial24.png" alt="" style="border: 4px solid #f95850;">
+                            </div>
+                             <img class="position-absolute udvash-logo" src="https://udvash.com/media/Images/UDVASH/Testimonial/udvashAfter.png" alt="">
+                            <h1 class="h5 fw-bold mt-4">সজীব আহমেদ রুহিত</h1>
+                            <p class=" admission-year fw-bold">ভর্তি পরীক্ষা: ২০২৪-২৫</p>
+                            <h2>BUET ২য়</h2>
+                            <p class="student-statement">আমি উদ্ভাস এর এডমিশন’২৩ ব্যাচের সাথে সিলেবাস অনেকটা এগিয়ে রেখেছিলাম। এরপর এডমিশন’২৪ ব্যাচের শুরু থেকেই উদ্ভাসের সঙ্গে ছিলাম। ভর্তির পর ধাপে ধাপে উদ্ভাসের সব ম্যাটেরিয়ালস শেষ করেছি। নিয়মিত ক্লাসও করেছি, কোনো ক্লাস বা পরীক্ষা কখনো মিস দিইনি। পাশাপাশি, উদ্ভাসের অনলাইন ও প্র্যাকটিস এক্সামগুলোও দিতাম। আর ম্যারাথন ক্লাসগুলো আমার প্রত্যাশার চেয়েও অনেক বেশি কার্যকর ছিল। তাই জুনিয়রদের জন্য আমার পরামর্শ—নিয়মিত ক্লাস ও পরীক্ষায় অংশগ্রহণ করো, প্রতিদিনের পড়া প্রতিদিন শেষ করো। নিজের প্রতি আত্মবিশ্বাস রাখো, কারণ সেটাই তোমাকে এগিয়ে নেবে।</p>
+                            <div class="bottom-line" style=" background-color: #f95850;transform: translate(-50%, -50%);"></div>
+                            </div>
+              </div>
+             
+             <!-- buet 3rd student card -->
+              <div class="col-md-4">
+                <div class="card testomonial-card d-flex flex-column justify-content-center align-items-center p-4 " style=" box-shadow:
+                inset 0 12px 10px -10px #fcb700,   
+                inset 10px 0 10px -10px #fcb700,   
+                inset -10px 0 10px -10px #fcb700; background-color: #fff9e9;">
+                                <div class="student-img text-center mt-3">
+                                <img class="rounded-circle w-25" src="https://udvash-unmesh.com//media/Images/Udvash/Testimonial/2024/3EAPTestimonial24.png" alt="" style="border: 4px solid #fcb700;">
+                            </div>
+                             <img class="position-absolute udvash-logo"  src="https://udvash.com/media/Images/UDVASH/Testimonial/udvashAfter.png" alt="">
+                            <h1 class="h5 fw-bold mt-4">এস.এ.এম তামিম</h1>
+                            <p class="admission-year fw-bold">ভর্তি পরীক্ষা: ২০২৪-২৫</p>
+                            <h2>BUET ৩য়</h2>
+                            <p class="student-statement">আমি উদ্ভাস এর এডমিশন’২৩ ব্যাচের সাথে সিলেবাস অনেকটা এগিয়ে রেখেছিলাম। এরপর এডমিশন’২৪ ব্যাচের শুরু থেকেই উদ্ভাসের সঙ্গে ছিলাম। ভর্তির পর ধাপে ধাপে উদ্ভাসের সব ম্যাটেরিয়ালস শেষ করেছি। নিয়মিত ক্লাসও করেছি, কোনো ক্লাস বা পরীক্ষা কখনো মিস দিইনি। পাশাপাশি, উদ্ভাসের অনলাইন ও প্র্যাকটিস এক্সামগুলোও দিতাম। আর ম্যারাথন ক্লাসগুলো আমার প্রত্যাশার চেয়েও অনেক বেশি কার্যকর ছিল। তাই জুনিয়রদের জন্য আমার পরামর্শ—নিয়মিত ক্লাস ও পরীক্ষায় অংশগ্রহণ করো, প্রতিদিনের পড়া প্রতিদিন শেষ করো। নিজের প্রতি আত্মবিশ্বাস রাখো, কারণ সেটাই তোমাকে এগিয়ে নেবে।</p>
+                            <div class="bottom-line" style=" background-color: #fcb700;transform: translate(-50%, -50%);"></div>
+                            </div>
+              </div>
+             <!-- buet 3rd student card -->
+              <div class="col-md-4">
+                <div class="card testomonial-card d-flex flex-column justify-content-center align-items-center p-4 d-none" style=" box-shadow:
+                inset 0 12px 10px -10px #fcb700,   
+                inset 10px 0 10px -10px #fcb700,   
+                inset -10px 0 10px -10px #fcb700; background-color: #fff9e9;">
+                                <div class="student-img text-center mt-3">
+                                <img class="rounded-circle w-25" src="https://udvash-unmesh.com//media/Images/Udvash/Testimonial/2024/3EAPTestimonial24.png" alt="" style="border: 4px solid #fcb700;">
+                            </div>
+                             <img class="position-absolute udvash-logo"  src="https://udvash.com/media/Images/UDVASH/Testimonial/udvashAfter.png" alt="">
+                            <h1 class="h5 fw-bold mt-4">এস.এ.এম তামিম</h1>
+                            <p class="admission-year fw-bold">ভর্তি পরীক্ষা: ২০২৪-২৫</p>
+                            <h2>BUET ৩য়</h2>
+                            <p class="student-statement ">আমি উদ্ভাস এর এডমিশন’২৩ ব্যাচের সাথে সিলেবাস অনেকটা এগিয়ে রেখেছিলাম। এরপর এডমিশন’২৪ ব্যাচের শুরু থেকেই উদ্ভাসের সঙ্গে ছিলাম। ভর্তির পর ধাপে ধাপে উদ্ভাসের সব ম্যাটেরিয়ালস শেষ করেছি। নিয়মিত ক্লাসও করেছি, কোনো ক্লাস বা পরীক্ষা কখনো মিস দিইনি। পাশাপাশি, উদ্ভাসের অনলাইন ও প্র্যাকটিস এক্সামগুলোও দিতাম। আর ম্যারাথন ক্লাসগুলো আমার প্রত্যাশার চেয়েও অনেক বেশি কার্যকর ছিল। তাই জুনিয়রদের জন্য আমার পরামর্শ—নিয়মিত ক্লাস ও পরীক্ষায় অংশগ্রহণ করো, প্রতিদিনের পড়া প্রতিদিন শেষ করো। নিজের প্রতি আত্মবিশ্বাস রাখো, কারণ সেটাই তোমাকে এগিয়ে নেবে।</p>
+                            <div class="bottom-line" style=" background-color: #fcb700;transform: translate(-50%, -50%);"></div>
+                            </div>
+              </div>
+             <!-- buet 3rd student card -->
+              <div class="col-md-4 ">
+                <div class="card testomonial-card d-flex flex-column justify-content-center align-items-center p-4 d-none" style=" box-shadow:
+                inset 0 12px 10px -10px #fcb700,   
+                inset 10px 0 10px -10px #fcb700,   
+                inset -10px 0 10px -10px #fcb700; background-color: #fff9e9;">
+                                <div class="student-img text-center mt-3">
+                                <img class="rounded-circle w-25" src="https://udvash-unmesh.com//media/Images/Udvash/Testimonial/2024/3EAPTestimonial24.png" alt="" style="border: 4px solid #fcb700;">
+                            </div>
+                             <img class="position-absolute udvash-logo"  src="https://udvash.com/media/Images/UDVASH/Testimonial/udvashAfter.png" alt="">
+                            <h1 class="h5 fw-bold mt-4">এস.এ.এম তামিম</h1>
+                            <p class="admission-year fw-bold">ভর্তি পরীক্ষা: ২০২৪-২৫</p>
+                            <h2>BUET ৩য়</h2>
+                            <p class="student-statement">আমি উদ্ভাস এর এডমিশন’২৩ ব্যাচের সাথে সিলেবাস অনেকটা এগিয়ে রেখেছিলাম। এরপর এডমিশন’২৪ ব্যাচের শুরু থেকেই উদ্ভাসের সঙ্গে ছিলাম। ভর্তির পর ধাপে ধাপে উদ্ভাসের সব ম্যাটেরিয়ালস শেষ করেছি। নিয়মিত ক্লাসও করেছি, কোনো ক্লাস বা পরীক্ষা কখনো মিস দিইনি। পাশাপাশি, উদ্ভাসের অনলাইন ও প্র্যাকটিস এক্সামগুলোও দিতাম। আর ম্যারাথন ক্লাসগুলো আমার প্রত্যাশার চেয়েও অনেক বেশি কার্যকর ছিল। তাই জুনিয়রদের জন্য আমার পরামর্শ—নিয়মিত ক্লাস ও পরীক্ষায় অংশগ্রহণ করো, প্রতিদিনের পড়া প্রতিদিন শেষ করো। নিজের প্রতি আত্মবিশ্বাস রাখো, কারণ সেটাই তোমাকে এগিয়ে নেবে।</p>
+                            <div class="bottom-line" style=" background-color: #fcb700;transform: translate(-50%, -50%);"></div>
+                            </div>
+              </div>
+             <!-- buet 3rd student card -->
+              <div class="col-md-4 ">
+                <div class="card testomonial-card d-flex flex-column justify-content-center align-items-center p-4 d-none" style=" box-shadow:
+                inset 0 12px 10px -10px #fcb700,   
+                inset 10px 0 10px -10px #fcb700,   
+                inset -10px 0 10px -10px #fcb700; background-color: #fff9e9;">
+                                <div class="student-img text-center mt-3">
+                                <img class="rounded-circle w-25" src="https://udvash-unmesh.com//media/Images/Udvash/Testimonial/2024/3EAPTestimonial24.png" alt="" style="border: 4px solid #fcb700;">
+                            </div>
+                             <img class="position-absolute udvash-logo"  src="https://udvash.com/media/Images/UDVASH/Testimonial/udvashAfter.png" alt="">
+                            <h1 class="h5 fw-bold mt-4">এস.এ.এম তামিম</h1>
+                            <p class="admission-year fw-bold">ভর্তি পরীক্ষা: ২০২৪-২৫</p>
+                            <h2>BUET ৩য়</h2>
+                            <p class="student-statement">আমি উদ্ভাস এর এডমিশন’২৩ ব্যাচের সাথে সিলেবাস অনেকটা এগিয়ে রেখেছিলাম। এরপর এডমিশন’২৪ ব্যাচের শুরু থেকেই উদ্ভাসের সঙ্গে ছিলাম। ভর্তির পর ধাপে ধাপে উদ্ভাসের সব ম্যাটেরিয়ালস শেষ করেছি। নিয়মিত ক্লাসও করেছি, কোনো ক্লাস বা পরীক্ষা কখনো মিস দিইনি। পাশাপাশি, উদ্ভাসের অনলাইন ও প্র্যাকটিস এক্সামগুলোও দিতাম। আর ম্যারাথন ক্লাসগুলো আমার প্রত্যাশার চেয়েও অনেক বেশি কার্যকর ছিল। তাই জুনিয়রদের জন্য আমার পরামর্শ—নিয়মিত ক্লাস ও পরীক্ষায় অংশগ্রহণ করো, প্রতিদিনের পড়া প্রতিদিন শেষ করো। নিজের প্রতি আত্মবিশ্বাস রাখো, কারণ সেটাই তোমাকে এগিয়ে নেবে।</p>
+                            <div class="bottom-line" style=" background-color: #fcb700;transform: translate(-50%, -50%);"></div>
+                            </div>
+              </div>
+             
+          </div>
+
+          <!-- aro dekun button -->
+          <div class="text-center" style="margin-top: 40px;padding-bottom: 20px;">
+            <button id="aro-dekun-btn" class="common-btn red-orange-gradient" style="color: white; font-size: 18px; width: 180px;">আরও দেখুন
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+         </div>
+
+        </div>
+       </section>
+      <!-- Sofol Jara kemon tara section end -->
+
+      <!-- iframe section start here -->
+      <section style="background: url(https://udvash.com/Themes/NewUdvashUnmeshTheme/img/udvash/videobg.png);padding: 45px 10px;">
+        <div class="container-lg">
+          <div class="ifrane-heading text-center">
+            <h2 class="text-danger fw-bold">BUET মেধাতালিকায় ১ম</h2>
+          <h1 class="fw-bold" style="color: #6585E3;margin: 0 0 35px 0;padding: 0;">কেমন ছিল তোফায়েলের পথচলা?</h1>
+          </div>
+
+          <!-- iframe vide -->
+          <div class="video-container position-relative rounded-3">
+            <img class="thumbnail d-block w-100 h-100" id="thumbnail" src="https://udvash-unmesh.com//media/Images/Udvash/Thumbnail/BUET241stThumbnail1.png" alt="">
+            <a class="play-button position-absolute text-decoration-none d-flex justify-content-center align-items-center" id="play-btn"><i class="fa-solid fa-play"></i></a>
+            <!-- <iframe id="video" src="" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+             <iframe class="d-block w-100 h-100" id="video" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         </div>
+
+        </div>
+        </section>
+      <!-- iframe section end here -->
+
+      <!-- onno anno sheba start here -->
+      <section style="background: url(https://udvash.com/Themes/NewUdvashUnmeshTheme/img/udvash/serviceBefore.png) #F5FDFF;background-repeat: no-repeat;padding: 0 10px;">
+        
+        <div class="container-lg py-5">
+          <div>
+            <h1 class="text-center py-4 fw-bold" style="color: #6ABE45;">অনন্য সব সেবা পরিক্রমা</h1>
+        </div>
+        <div class="sheba-container row  g-3">
+            <div class="sheba col-6 col-md-3  d-flex flex-column justify-content-center align-items-center">
+                <img src="https://udvash-unmesh.com//media/Images/Udvash/Common/onlineofline.png" alt="">
+                <p class="fs-4 mt-3 text-center">অফলাইন/অনলাইন প্রোগ্রাম</p>
+            </div>
+            <div class="sheba col-6 col-md-3 d-flex flex-column justify-content-center align-items-center">
+                <img src="https://udvash-unmesh.com//media/Images/UDVASH/Common/teacher.png" alt="">
+                <p class="fs-4 mt-3 text-center">মেধাবী ও অভিজ্ঞ শিক্ষক</p>
+            </div>
+            <div class="sheba col-6 col-md-3 d-flex flex-column justify-content-center align-items-center">
+                <img src="https://udvash-unmesh.com//media/Images/UDVASH/Common/materials.png" alt="">
+                <p class="fs-4 mt-3 text-center">মানসম্মত স্টাডি ম্যাটেরিয়ালস</p>
+            </div>
+            <div class="sheba col-6 col-md-3 d-flex flex-column justify-content-center align-items-center">
+                <img src="https://udvash-unmesh.com//media/Images/UDVASH/Common/concept.png" alt="">
+                <p class="fs-4 mt-3 text-center">কনসেপ্ট বেইজড ক্লাস</p>
+            </div>
+            <div class="sheba col-6 col-md-3 d-flex flex-column justify-content-center align-items-center">
+                <img src="https://udvash-unmesh.com//media/Images/UDVASH/Common/unique.png" alt="">
+                <p class="fs-4 mt-3 text-center">ইউনিক এক্সাম সিস্টেম</p>
+            </div>
+            <div class="sheba col-6 col-md-3 d-flex flex-column justify-content-center align-items-center">
+                <img src="https://udvash-unmesh.com//media/Images/UDVASH/Common/Q & A.png" alt="">
+                <p class="fs-4 mt-3 text-center">সার্বক্ষণিক Q&A সেবা</p>
+            </div>
+            <div class="sheba col-6 col-md-3 d-flex flex-column justify-content-center align-items-center">
+                <img src="https://udvash-unmesh.com//media/Images/UDVASH/Common/sms.png" alt="">
+                <p class="fs-4 mt-3 text-center">Auto SMS রেজাল্ট</p>
+            </div>
+            <div class="sheba col-6 col-md-3 d-flex flex-column justify-content-center align-items-center">
+                <img src="https://udvash-unmesh.com//media/Images/UDVASH/Common/analysis.png" alt="">
+                <p class="fs-4 mt-3 text-center">এক্সাম এনালাইসিস রিপোর্ট</p>
+            </div>
+        </div>
+        </div>
+
+        
+       </section>
+      <!-- onno anno sheba end here -->
+
+      <!-- sokol shaka soman sheba section start  -->
+      <section style="background: url(https://udvash.com/Themes/NewUdvashUnmeshTheme/img/udvash/easyBg.png); min-height: 616px;display: flex;justify-content: center;align-items: center;padding: 0 10px;">
+        <div class="sokol-shaka-container container-lg d-flex align-items-center row py-5">
+            <div class="description-container col-12 col-sm-6">
+                <h2 class="fw-bold">দেশব্যাপী</h2>
+                <h1 class="fw-bold" >সকল শাখায় সমান সেবা</h1>
+                <p style="text-align: justify; color: #2B2B2B;font-weight: 500;">দেশব্যাপী উদ্ভাস-উন্মেষ এর সকল শাখায় সমান সেবা প্রদান করা হয়। অভিন্ন প্রশ্নপত্রে সকল শাখায় পরীক্ষা নেওয়া হয়। সকল উত্তরপত্র মূল্যায়ন করা হয় এক জায়গা থেকে এবং একই Solve Sheet সকল শিক্ষার্থীকে প্রদান করা হয়। একই টিচার সকল শাখায় ঘুরে ঘুরে ক্লাস নিয়ে থাকেন। অনলাইন Software-এর মাধ্যমে সকল শিক্ষার্থীর মেধাতালিকা প্রণয়ন করা হয়। ফলে একজন শিক্ষার্থী উদ্ভাস-উন্মেষ এর যেকোনো শাখা থেকে পরীক্ষা দিয়েই দেশব্যাপী সকল শিক্ষার্থীর মধ্যে নিজের অবস্থান সম্পর্কে জানতে পারে।</p>
+            </div>
+            <div class="map-container col-12 col-sm-6 mx-auto">
+                <img class="img-fluid float-end" src="https://udvash-unmesh.com/media/Images/Udvash/Common/Mask Group 28256.png" alt="">
+            </div>
+        </div>
+       </section>
+      <!-- sokol shaka soman sheba section end  -->
+
+        <!-- preparation description start-->
+        <section class="py-5" style="background-color: #FAEFFF; padding: 60px 0; padding: 0 10px;">
+
+          <div class="container-lg ">
+            <div class=" preparation-container d-flex justify-content-center align-items-center   row">
+              <div class="preparation-img-container col-sm-6 ">
+                  <img class="img-fluid" src="https://udvash-unmesh.com/media/Images/UDVASH/Common/prostuti.png" alt="">
+              </div>
+              <div class="preparation-description-container col-sm-6 ">
+                  <h2 class="text-danger fw-bold">যেমনই হোক পরিস্থিতি</h2>
+                  <h1 class="" >থেমে থাকবে না প্রস্তুতি</h1>
+                  <p class="" style="text-align: justify; color: #2B2B2B;font-weight: 500;">নিজস্ব সফট্ওয়্যার টিমের সার্বক্ষণিক তত্ত্বাবধানে উদ্ভাস-উন্মেষ এর রয়েছে দেশসেরা অনলাইন লার্নিং প্ল্যাটফর্ম (online.udvash-unmesh.com)। কোভিড-১৯ মহামারী অথবা যেকোনো সরকারি বিধি-নিষেধের কারণে শিক্ষা প্রতিষ্ঠান বন্ধ থাকলে সকল কার্যক্রম অনলাইনে চলমান থাকবে। ফলে শিক্ষার্থীদের ধারাবাহিক প্রস্তুতিতে কোনো প্রকার বিঘ্ন ঘটবে না। বিভিন্ন ভর্তি পরীক্ষায় উদ্ভাস-উন্মেষ এর শিক্ষার্থীদের ঈর্ষণীয় সাফল্যই তার উৎকৃষ্ট প্রমাণ। উল্লেখ্য যে, অনলাইনেও শিক্ষার্থীদের সুষম প্রস্তুতি নিশ্চিতকরণে MCQ পরীক্ষার পাশাপাশি বাংলাদেশে একমাত্র উদ্ভাস উন্মেষ-ই অফলাইনে Written পরীক্ষার অনুরূপ অনলাইনে Written পরীক্ষা নিয়ে থাকে।</p>
+              </div>
+          </div>
+          </div>
+
+        
+         </section>
+        <!-- preparation description end-->
+
+
     </main>
-    <footer></footer>
+    <footer class="pt-5 text-light" style="background-color: #532356;">
+
+      <div class="container-lg">
+
+        <div class="footer-container d-flex row">
+        <div class="footer-img-container col-md-4">
+            <img src="https://udvash.com/media/Images/UDVASH/Common/footer-logo.png" alt="">
+        </div>
+            <div class="footer-link-container row d-flex col-md-8 ">
+            <div class="col-md-3">
+                <h4>Help</h4>
+                <ul class="list-unstyled ">
+                    <li><a class="text-decoration-none text-light" href="">About Us</a></li>
+                    <li><a href="">Branch List</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms and Conditions</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4>Explore</h4>
+                 <ul class="list-unstyled">
+                    <li><a href="">Programs</a></li>
+                    <li><a href="">Teacher Registartion</a></li>
+                    <li><a href=""> Book Correction</a></li>
+                   
+                </ul>
+            </div>
+            <div class="contact-section-container col-md-5">
+                <h4>Get In Touch</h4>
+                <p>Address: 78, Green Road (3rd Floor), Farmgate, Tejgaon, Dhaka-1205</p>
+                <p>Helpline:09666775566</p>
+                <p>Email: info@udvash-unmesh.com</p>
+                <div class="social-icon-container">
+                    <a>
+                        <img src="https://unmesh.com/media/Images/Unmesh/facebook.png" alt="">
+                    </a>
+                    <a>
+                        <img src="https://unmesh.com/media/Images/Unmesh/youtube.png" alt="">
+                    </a>
+                    <a>
+                        <img src="https://unmesh.com/media/Images/Unmesh/instagram.png" alt="">
+                    </a>
+                    <a>
+                        <img src="https://unmesh.com/media/Images/Unmesh/linkedIn.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        
+   <div style="margin: 30px 0 0 0;">
+  <hr>
+     <p class="text-center m-0">Copyright © Udvash Academic & Admission Care. All rights reserved. 2025</p>
+   </div>
+    </div>
+
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
@@ -483,12 +864,82 @@
       $(document).ready(function () {
         $("#menu-toggle").click(function () {
           $("#mobileMenu").toggleClass("active");
-
-          // Toggle icon
           const icon = $("#menu-icon");
           icon.toggleClass("fa-bars fa-xmark");
         });
       });
+
+
+      $("#aro-dekun-btn").click(function () {
+      let hiddenCard = $(".d-none");
+      console.log(hiddenCard);
+      const showCard = 3;
+
+      for (let i = 0; i <=showCard && i < hiddenCard.length; i++) {
+        $(hiddenCard[i]).removeClass("d-none");
+        }
+
+      if ($(".d-none").length === 0) {
+          $("#aro-dekun-btn").addClass("d-none");
+       }
+      });
+
+      // iframe video
+      $("#play-btn").click(function(){
+        $("#video").attr("src","https://www.youtube.com/embed/5GKzR0rjFvM?si=TCBZWBl2KxsajE2e");
+        $("#thumbnail").addClass("d-none");
+        $("#play-btn").addClass("d-none");
+      })
+
+      //countdown
+
+      // $(document).ready(function(){
+      //   const colors = ["#e74c3c", "#3498db", "#2ecc71", "#f39c12"];
+      //   $(".counter").each(function(index){
+      //     $(this).css("color",colors[index % colors.length])
+      //   })
+      // })
+
+      
+
+
+    $(document).ready(function () {
+    let counted = false;
+
+    $(window).on("scroll", function () {
+      const counterTop = $(".row.mt-5").offset().top - window.innerHeight + 100;
+
+      console.log(counterTop)
+      if (!counted && $(window).scrollTop() > counterTop) {
+        counted = true;
+
+        const duration = 2000;
+        const startTime = performance.now();
+
+        $(".counter").each(function () {
+          const $this = $(this);
+          const target = parseInt($this.data("target"));
+
+          function update(currentTime) {
+            const elapsed = currentTime - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            const currentValue = Math.floor(progress * target);
+            $this.text(currentValue + "+");
+
+            if (progress < 1) {
+              requestAnimationFrame(update);
+            } else {
+              $this.text(target + "+");
+            }
+          }
+
+          requestAnimationFrame(update);
+        });
+      }
+    });
+    $(window).trigger("scroll");
+  });
+
     </script>
   </body>
 </html>
