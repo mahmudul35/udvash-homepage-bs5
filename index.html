@@ -22,10 +22,12 @@
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css" />
 
-    <!-- Jquey CDN -->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
    
-    <script src="js/script.js"></script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"
+  ></script>
   </head>
   <body>
     <header class="sticky-top shadow" style="background-color: #fff">
@@ -692,7 +694,7 @@
 
           <!-- iframe vide -->
           <div class="video-container  position-relative rounded-3">
-            <img class="thumbnail d-block w-100 h-100 img-fluid" id="thumbnail" src="https://udvash-unmesh.com//media/Images/Udvash/Thumbnail/BUET241stThumbnail1.png" alt="">
+            <img class=" d-block w-100 h-100 img-fluid" id="thumbnail" src="https://udvash-unmesh.com//media/Images/Udvash/Thumbnail/BUET241stThumbnail1.png" alt="">
             <a class="play-button position-absolute text-decoration-none d-flex justify-content-center align-items-center" id="play-btn"><i class="fa-solid fa-play"></i></a>
             <!-- <iframe id="video" src="" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
              <iframe class="d-block w-100 h-100" width="560" height="315" id="video" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -757,7 +759,7 @@
                 <h1 class="fw-bold" >সকল শাখায় সমান সেবা</h1>
                 <p style="text-align: justify; color: #2B2B2B;font-weight: 500;">দেশব্যাপী উদ্ভাস-উন্মেষ এর সকল শাখায় সমান সেবা প্রদান করা হয়। অভিন্ন প্রশ্নপত্রে সকল শাখায় পরীক্ষা নেওয়া হয়। সকল উত্তরপত্র মূল্যায়ন করা হয় এক জায়গা থেকে এবং একই Solve Sheet সকল শিক্ষার্থীকে প্রদান করা হয়। একই টিচার সকল শাখায় ঘুরে ঘুরে ক্লাস নিয়ে থাকেন। অনলাইন Software-এর মাধ্যমে সকল শিক্ষার্থীর মেধাতালিকা প্রণয়ন করা হয়। ফলে একজন শিক্ষার্থী উদ্ভাস-উন্মেষ এর যেকোনো শাখা থেকে পরীক্ষা দিয়েই দেশব্যাপী সকল শিক্ষার্থীর মধ্যে নিজের অবস্থান সম্পর্কে জানতে পারে।</p>
             </div>
-            <div class="map-container col-12 col-sm-6 ">
+            <div class="col-12 col-sm-6 ">
                 <img class="img-fluid float-end" src="https://udvash-unmesh.com/media/Images/Udvash/Common/Mask Group 28256.png" alt="">
             </div>
         </div>
@@ -768,8 +770,8 @@
         <section class="py-5" style="background-color: #FAEFFF; padding: 60px 0; padding: 0 10px;">
 
           <div class="container-lg ">
-            <div class=" preparation-container d-flex justify-content-center align-items-center   row">
-              <div class="preparation-img-container col-sm-6 ">
+            <div class="d-flex justify-content-center align-items-center   row">
+              <div class="col-sm-6 ">
                   <img class="img-fluid" src="https://udvash-unmesh.com/media/Images/UDVASH/Common/prostuti.png" alt="">
               </div>
               <div class="preparation-description-container col-sm-6 ">
@@ -790,11 +792,11 @@
 
       <div class="container-lg">
 
-        <div class="footer-container d-flex row">
-        <div class="footer-img-container col-md-4 mb-3">
+        <div class="d-flex row">
+        <div class="col-md-4 mb-3">
             <img src="https://udvash.com/media/Images/UDVASH/Common/footer-logo.png" alt="">
         </div>
-            <div class="footer-link-container row d-flex col-md-8 ">
+            <div class="row d-flex col-md-8 ">
             <div class="col-md-3 mt-sm-3 mt-md-0">
                 <h4>Help</h4>
                 <ul class="list-unstyled ">
@@ -813,7 +815,7 @@
                    
                 </ul>
             </div>
-            <div class="contact-section-container col-md-5">
+            <div class=" col-md-5">
                 <h4>Get In Touch</h4>
                 <p>Address: 78, Green Road (3rd Floor), Farmgate, Tejgaon, Dhaka-1205</p>
                 <p>Helpline:09666775566</p>
@@ -844,92 +846,8 @@
     </div>
 
     </footer>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      $(document).ready(function () {
-        $("#menu-toggle").click(function () {
-          $("#mobileMenu").toggleClass("active");
-          const icon = $("#menu-icon");
-          icon.toggleClass("fa-bars fa-xmark");
-        });
-      });
-
-
-      $("#aro-dekun-btn").click(function () {
-      let hiddenCard = $(".d-none");
-      console.log(hiddenCard);
-      const showCard = 3;
-
-      for (let i = 0; i <=showCard && i < hiddenCard.length; i++) {
-        $(hiddenCard[i]).removeClass("d-none");
-        }
-
-      if ($(".d-none").length === 0) {
-          $("#aro-dekun-btn").addClass("d-none");
-       }
-      });
-
-      // iframe video
-      $("#play-btn").click(function(){
-        $("#video").attr("src","https://www.youtube.com/embed/5GKzR0rjFvM?si=TCBZWBl2KxsajE2e");
-        $("#thumbnail").addClass("d-none");
-        $("#play-btn").addClass("d-none");
-      })
-
-      //countdown
-
-      // $(document).ready(function(){
-      //   const colors = ["#e74c3c", "#3498db", "#2ecc71", "#f39c12"];
-      //   $(".counter").each(function(index){
-      //     $(this).css("color",colors[index % colors.length])
-      //   })
-      // })
-
-      
-
-
-    $(document).ready(function () {
-    let counted = false;
-
-    $(window).on("scroll", function () {
-      const counterTop = $(".row.mt-5").offset().top - window.innerHeight + 100;
-
-      console.log(counterTop)
-      if (!counted && $(window).scrollTop() > counterTop) {
-        counted = true;
-
-        const duration = 2000;
-        const startTime = performance.now();
-
-        $(".counter").each(function () {
-          const $this = $(this);
-          const target = parseInt($this.data("target"));
-
-          function update(currentTime) {
-            const elapsed = currentTime - startTime;
-            const progress = Math.min(elapsed / duration, 1);
-            const currentValue = Math.floor(progress * target);
-            $this.text(currentValue + "+");
-
-            if (progress < 1) {
-              requestAnimationFrame(update);
-            } else {
-              $this.text(target + "+");
-            }
-          }
-
-          requestAnimationFrame(update);
-        });
-      }
-    });
-    $(window).trigger("scroll");
-  });
-
-    </script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>
